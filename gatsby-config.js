@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/",
+  pathPrefix: "/touch-to-unlock",
   siteMetadata: {
     title: "Lin",
     siteUrl: "https://ntr1994.github.io",
