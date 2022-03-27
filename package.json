@@ -1,0 +1,38 @@
+{
+  "name": "lin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github-ntr1994:ntr1994/lin.git",
+  "author": "ntr1994 <nftfusionultimate@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compress": "node ./scripts/compress.js",
+    "prebuild": "node ./scripts/prebuild.js",
+    "postinstall": "sh setup.sh",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "crypto-js": "^4.1.1",
+    "cwebp": "^2.0.5",
+    "gatsby": "^4.9.3",
+    "gatsby-plugin-manifest": "^4.9.1",
+    "gatsby-plugin-postcss": "^5.9.0",
+    "gatsby-plugin-react-helmet": "^5.9.0",
+    "gatsby-source-filesystem": "^4.9.1",
+    "gatsby-transformer-json": "^4.9.0",
+    "gh-pages": "^3.2.3",
+    "glob": "^7.2.0",
+    "image-size": "^1.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-intersection-observer": "^8.33.1",
+    "slugify": "^1.6.5"
+  }
+}
